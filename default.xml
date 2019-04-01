@@ -1,0 +1,10 @@
+<manifest>
+  <remote name="github" fetch="https://github.com"/>
+  <default revision="refs/heads/master" remote="github" sync-j="4"/>
+
+  <!-- My projects -->
+  <project name="trevorassaf/rpi-x-tools" remote="github" path="build/toolchains/rpi-x-tools"/>
+
+  <!-- Third party projects -->
+  <project name="google/googletest" remote="github" path="code/googletest"/>
+</manifest>

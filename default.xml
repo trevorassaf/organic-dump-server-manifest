@@ -7,4 +7,5 @@
 
   <!-- Third party projects -->
   <project name="google/googletest" remote="github" path="code/googletest"/>
+  <project name="openssl/openssl" remote="github" path="code/openssl"/>
 </manifest>
